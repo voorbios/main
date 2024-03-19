@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+body {
+    background-color: #1e1e1e;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Roboto Mono';
+}
+
+.navbar {
+    display: block;
+    background-color: #232323;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    margin-top: -80px;
+}
+
+#logo_navbar {
+    margin-top: -5px;
+    height: 60px;
+    float: left;
+    filter: drop-shadow(0px 5px 10px rgba(255, 255, 255, 0.518));
+    -webkit-filter: drop-shadow(0px 5px 10px rgba(255, 255, 255, 0.518));
+}
+
+.navbar_item {
+    font-size: 1em;
+    float: right;
+    margin-right: 15px;
+    margin-top: 12px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#services {
+    text-shadow: 0 0 7px rgba(255, 255, 255, 0.404), 0 0 10px rgba(255, 255, 255, 0.404), 0 0 14px rgba(255, 255, 255, 0.607), 0 5px 17px rgba(255, 255, 255, 0.574), 0 7px 20px rgba(255, 255, 255, 0.404);
+}
+
+#services:hover {
+    color: antiquewhite;
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #3bcf51, 0 0 7px #2dac40, 0 0 10px #3ef85a, 0 0 14px #48f362, 0 7px 17px #5af872, 0 10px 20px #3eee59;
+    font-weight: normal;
+}
+
+.navbar a:hover {
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #3bcf51, 0 0 7px #2dac40, 0 0 10px #3ef85a, 0 0 14px #48f362, 0 7px 17px #5af872, 0 10px 20px #3eee59;
+    transition: text-shadow 100ms ease-in-out;
+}
+
+.dropdown_button {
+    display: none;
+}
+
+/*Content*/
+.content_hold {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    width: 100vw;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 40vw;
+    background-color: #232323;
+    border-radius: 10px;
+}
+
+.service_content {
+    display: block;
+    position: relative;
+    width: 30vw;
+}
