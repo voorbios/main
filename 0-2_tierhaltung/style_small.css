@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
+/*Navbar small and normal*/
 body {
     background-color: floralwhite;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    font-family: 'Roboto Mono','Helvetica';
+    font-family: 'Roboto Mono', 'Helvetica';
     color: black;
 }

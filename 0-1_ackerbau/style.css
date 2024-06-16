@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+body {
+    background-color: floralwhite;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Roboto Mono','Helvetica';
+    color: black;
+}
+
+.circle_holder {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+    text-align: center;
+    line-height: 15vw;
+    transition: 500ms;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.circle:hover {
+    width: 16vw;
+    height: 16vw;
+    line-height: 16vw;
+    transition: 500ms;
+}
+
+#c_1 {
+    background: url('../data/img/k_plain.jpg'), rgba(0, 0, 0, 0.2);
+    background-size: contain;
+    background-blend-mode: multiply;
+}
+
+#c_2 {
+    background: url('../data/img/h_plain.jpg');
+    background-size: contain;
+    color: white;
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+}
